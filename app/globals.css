@@ -1,4 +1,10 @@
 :root {
+  --color-accent-yellow-0: #ffdd00;
+}
+
+::selection {
+  color: black;
+  background: var(--color-accent-yellow-0);
 }
 
 * {
@@ -17,6 +23,17 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h2,
+h2 {
+  font-size: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
 }
 
 @media (prefers-color-scheme: dark) {
